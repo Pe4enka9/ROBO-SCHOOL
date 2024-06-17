@@ -11,8 +11,12 @@ body {
     line-height: 28.8px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
-    padding: 30px 100px;
+    padding: 30px 100px 0 100px;
 
     display: flex;
     justify-content: center;
@@ -55,4 +59,60 @@ nav ul a {
     line-height: 48px;
 
     text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #141024;
+}
+
+.banner_content h1 {
+    margin-bottom: 20px;
+
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+
+    text-transform: uppercase;
+}
+
+.banner_content p {
+    margin-bottom: 50px;
+
+    color: #fff;
+
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.banner_content a {
+    width: 260px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    background-color: #d52027;
+
+    border: 3px solid #d52027;
+    border-radius: 5px;
+
+    transition: .3s ease-in-out background-color,
+        .3s ease-in-out color;
+}
+
+.banner_content a:hover {
+    background-color: #fff;
+    color: #d52027;
+}
+
+.banner img {
+    width: 783px;
 }
