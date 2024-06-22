@@ -62,6 +62,8 @@ nav ul a {
 }
 
 .banner {
+    padding: 84px 213px 0 380px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,6 +84,8 @@ nav ul a {
 }
 
 .banner_content p {
+    max-width: 478px;
+
     margin-bottom: 50px;
 
     color: #fff;
@@ -115,4 +119,37 @@ nav ul a {
 
 .banner img {
     width: 783px;
+}
+
+.about {
+    padding: 120px 213px 0 380px;
+}
+
+.about_p {
+    max-width: 891px;
+
+    margin-bottom: 60px;
+
+    color: #141024;
+
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.about_statistics {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 40px;
+}
+
+.about_elem h2 {
+    color: #d52027;
+
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 112px;
+}
+
+.about_elem p {
+    color: rgba(20, 16, 36, 0.7);
 }
